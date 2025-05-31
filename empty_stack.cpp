@@ -29,9 +29,14 @@ void solve() {
     st.push (1);
     st.pop();
     st.pop();
-    cout<<st.top()<<nl;
-    st.push(5);
-    cout<<st.top()<<nl;
+    if (st.size()==0)
+    {
+        cout<<"Stack is empty"<<nl;
+    }
+    else
+    {
+        cout<<"Stack is  not  empty"<<nl;
+    }
 }
 
 int main() {
