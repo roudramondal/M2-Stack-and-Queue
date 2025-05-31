@@ -29,7 +29,7 @@ void solve() {
     st.push (1);
     st.pop();
     st.pop();
-    if (st.size()==0)
+    if (st.size()==0)// also i can use  st.empty () function
     {
         cout<<"Stack is empty"<<nl;
     }
