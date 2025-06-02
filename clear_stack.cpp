@@ -28,7 +28,7 @@ void solve() {
     stack <int>st;
     st.push (1);
     st.push (3);
-    st.push(5);
+    st.push(5);// push value in stack 
 
     while (!st.empty()){
         st.pop();
