@@ -30,7 +30,7 @@ void solve() {
     st.push (2);
     st.push (3);
     st.pop();
-    cout<<st.top()<<nl;
+    cout<<st.top()<<nl;// find top value
     st.push(5);
     cout<<st.top()<<nl;
 }
