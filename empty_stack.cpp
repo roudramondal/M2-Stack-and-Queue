@@ -26,8 +26,8 @@ using namespace std;
 void solve() {
     // code here 
     stack <int>st;
-    st.push (1);
-    st.pop();
+    st.push (1);// push value 
+    st.pop();// pop value
     st.pop();
     if (st.size()==0)// also i can use  st.empty () function
     {
