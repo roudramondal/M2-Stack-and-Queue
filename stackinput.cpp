@@ -27,7 +27,7 @@ void solve() {
     // code here 
     stack<int>st;
     st.push(1);
-    st.push(2)
+    st.push(2)// insert value
     cout<<st.top()<<nl;//find top value also call first value
    
 }
