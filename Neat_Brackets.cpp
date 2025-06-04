@@ -27,7 +27,7 @@ void solve() {
     string s;
     cin >> s;
     stack<char> st;
-    bool valid = true;
+    bool valid = true; // boolen data type
 
     for (char c : s) {
         if (c == '(') {
