@@ -30,6 +30,12 @@ void solve() {
     q.push(3);
     q.push(9);
     q.push(8);
+ //  while  (!q.empty()){
+    //     cout<<q.front();
+    //     q.pop();
+    // }
+    // cout<<nl;
+    // cout<<"Size check = "<<q.size()<<nl;
     while  (!q.empty()){
         q.pop();
     }
