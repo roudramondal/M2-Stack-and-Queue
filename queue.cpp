@@ -25,7 +25,7 @@ using namespace std;
 
 void solve() {
     // code here 
-    queue<int>q;
+    queue<int>q; //  queue declare 
     q.push(5);
     q.push(3);
     cout<<q.front()<<nl;
