@@ -36,6 +36,17 @@ void solve() {
         q.push(binary_of_i+'0');
         q.push(binary_of_i+'1');
     }
+   // for (int i=1;i<=n;i++){
+   //      string binary_of_i=q.front();
+   //      q.pop();
+   //      cout<<i<<" = "<<binary_of_i<<nl;
+   //      if (i*2<=n)
+   //      {
+   //      q.push(binary_of_i+'(');
+   //      q.push(binary_of_i+')');
+   //      }
+   //  }
+   //  cout<<q.size()<<nl;
 }
 
 int main() {
