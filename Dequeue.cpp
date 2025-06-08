@@ -26,7 +26,7 @@ using namespace std;
 void solve() {
     // code here 
     deque<int>dq;
-    dq.push_front(1);
+    dq.push_front(1); // push front value
     dq.push_back(4);
     dq.push_front(3);
     dq.pop_back();
