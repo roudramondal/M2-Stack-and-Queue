@@ -37,7 +37,7 @@ void solve() {
 
     cout<<dq.size()<<nl;
 
-    for (auto it :dq){
+    for (auto it :dq){ // this loop
         cout<<it<<nl;
     }
 
