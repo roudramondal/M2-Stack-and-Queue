@@ -24,7 +24,7 @@ using namespace std;
 #define fast_io ios::sync_with_stdio(false); cin.tie(NULL);
 
 void solve() {
-    string s;
+    string s; // input string 
     cin >> s;
     stack<char> st;
     bool valid = true; // boolen data type
