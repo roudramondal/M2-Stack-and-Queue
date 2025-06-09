@@ -26,7 +26,7 @@ using namespace std;
 void solve() {
     // code here 
     stack <int>st; // stack declare
-    st.push (1);
+    st.push (1);// push value 
     st.push (3);
     st.push(5);// push value in stack 
 
