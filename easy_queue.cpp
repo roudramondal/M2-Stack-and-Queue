@@ -26,7 +26,7 @@ using namespace std;
 void solve() {
     // code here 
     queue<string>q;
-    q.push("1");
+    q.push("1");// push value 1
     int n;
     cin>>n;
     for (int i=1;i<=n;i++){
