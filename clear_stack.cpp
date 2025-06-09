@@ -30,7 +30,7 @@ void solve() {
     st.push (3);
     st.push(5);// push value in stack 
 
-    while (!st.empty()){
+    while (!st.empty()){ // loop run 
         st.pop();
     }
 
