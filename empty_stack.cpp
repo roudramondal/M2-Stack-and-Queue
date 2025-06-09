@@ -25,7 +25,7 @@ using namespace std;
 
 void solve() {
     // code here 
-    stack <int>st;
+    stack <int>st;// stack declare
     st.push (1);// push value 
     st.pop();// pop value
     st.pop();
