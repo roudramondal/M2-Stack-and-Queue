@@ -25,7 +25,7 @@ using namespace std;
 
 void solve() {
     // code here 
-    queue<string>q;
+    queue<string>q;// declare queue
     q.push("( ");
     q.push(")");
     int n;
