@@ -21,7 +21,7 @@ using namespace std;
 #define pii pair<int,int>
 #define pll pair<<ll ,ll>
 
-#define fast_io ios::sync_with_stdio(false); cin.tie(NULL);
+#define fast_io ios::sync_with_stdio(false); cin.tie(NULL); 
 
 void solve() {
     // code here 
@@ -45,7 +45,7 @@ void solve() {
 }
 
 int main() {
-    fast_io;
+    fast_io;// use for fast input 
     int t;
     cin >> t;
     while (t--) {
