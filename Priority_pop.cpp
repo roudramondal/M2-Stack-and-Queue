@@ -25,7 +25,7 @@ using namespace std;
 
 void solve() {
     // code here 
-    priority_queue<int>pq;
+     priority_queue<int>pq;
     pq.push(4);
     pq.push(10);
     pq.push(5);
@@ -34,7 +34,8 @@ void solve() {
     pq.push(13);
     pq.push (15);
     pq.pop ();
-    cout<<pq.top()<<nl;
+    pq.pop ();
+    cout<<pq.top()<<nl;// same value print double time
 }
 
 int main() {
