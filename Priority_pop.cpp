@@ -30,7 +30,7 @@ void solve() {
     pq.push(10);
     pq.push(5);
     pq.pop ();
-    cout<<pq.top()<<nl;
+    cout<<pq.top()<<nl; // find the first value
     pq.push(13);
     pq.push (15);
     pq.pop ();
