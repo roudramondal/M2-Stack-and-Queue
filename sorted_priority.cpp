@@ -37,6 +37,10 @@ void solve() {
         sorted.push_back(pq.top());
         pq.pop();
     }
+    // sorted is now in assending order
+    //reverse (all (sorted));
+    // also i have another way to sort the vector
+    reverse (sorted.begin(),sorted.end());
     for (auto v : sorted)
     {
         cout<<v<<" ";
